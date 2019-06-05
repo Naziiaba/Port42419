@@ -433,6 +433,7 @@ section {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+    margin-top: 40px;
 }
 
 #scroll {
