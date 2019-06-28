@@ -8,7 +8,7 @@
   display: block;
   float: right;
   height: 35px;
-  line-height: 50px;
+  line-height: 54px;
   padding: 10px 0 9px;
   position: relative;
   vertical-align: middle;
@@ -53,7 +53,7 @@
   .slicknav_nav ul {
     display: block; }
   .slicknav_nav li {
-    display: block; 
+    display: block;
     line-height: 30px;
   }
   .slicknav_nav li:not(:first-child){

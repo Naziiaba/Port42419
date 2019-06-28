@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 18px Arial, Helvetica, serif, sans-serif;
     line-height: 1.8;
+    height: 100%;
 }
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -21,79 +23,6 @@ h4 {
     margin-bottom: 30px;
 
 }
-.divider {
-  height: 50px;
-}
-
-body, html {
-  height: 100%;
-}
-
-
-
-section {
-  color: #ffffff;
-  min-height: 380px;
-  height: auto !important;
-  height: 100%;
-  padding-top:100px;
-}
-
-.bg-1 {
-	background: url('img/flower.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-h1 {
-  text-align: center;
-  color: #202020;
-  font-weight: bolder;
-  font-family: Montserrat;
-  font-size: 24px;
-  margin: 10px 10px;
-}
-
-main {
-  max-width: 1350px;
-  margin: 0 auto;
-  }
-
-  .container-fluid {
-      padding: 60px 50px;
-
-  }
-  .bg-grey {
-      background-color: #f6f6f6;
-  }
-
-
-      /* Intro about myself styles */
-
-
-
-      @media screen and (max-width: 768px) {
-        .col-sm-4 {
-          text-align: center;
-          margin: 25px 0;
-          width: 50%;
-        }
-
-        .btn-lg {
-            width: 100%;
-            margin-bottom: 35px;
-        }
-      }
-      @media screen and (max-width: 480px) {
-        .col-sm-4 {
-          text-align: center;
-          width: 100%;
-        }
-
-      }
-
-
 
 .navbar {
     margin-bottom: 0;
@@ -105,9 +34,10 @@ main {
     overflow: auto;
     white-space: nowrap;
     background-color: #fff;
-    min-height: 58px;
+    min-height: 54px;
 }
-.navbar li a, .navbar .navbar-brand {
+
+.navbar li a, .navbar  {
     color: black !important;
     font-size: 18px;
     color: #333 !important;
@@ -279,8 +209,6 @@ main {
     color: #00b4d9;
   }
 
-
-
   .social-icon li {
     list-style: none;
     margin: 10px 10px;
@@ -300,10 +228,6 @@ main {
     border: 1px solid #80bfff;
     transition: .5s;
   }
-
-
-
-
 
 
 /*script-font from landing page title*/
@@ -344,14 +268,19 @@ main {
   }
 /*end*/
 
+.divider {
+  height: 50px;
+}
+
 section {
   color: #ffffff;
-  min-height: 400px;
+  min-height: 380px;
   height: auto !important;
   height: 100%;
   padding-top:100px;
 }
 
+/* parallax*/
 .bg-1 {
 	background: url('img/flower.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -359,26 +288,47 @@ section {
   	-o-background-size: cover;
   	background-size: cover;
 }
+h1 {
+  text-align: center;
+  color: #202020;
+  font-weight: bolder;
+  font-family: Montserrat;
+  font-size: 24px;
+  margin: 10px 10px;
+}
 
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-      width: 50%;
-    }
 
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .col-sm-4 {
-      text-align: center;
-      width: 100%;
-    }
+
+  .container-fluid {    /* About section */
+      padding: 60px 50px;
 
   }
+  .bg-grey {        /* About section */
+      background-color: #f6f6f6;
+  }
+
+      /* Intro about myself styles */
+
+            @media screen and (max-width: 768px) {
+              .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+                width: 50%;
+              }
+
+              .btn-lg {
+                  width: 100%;
+                  margin-bottom: 35px;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .col-sm-4 {
+                text-align: center;
+                width: 100%;
+              }
+
+
+            }
 
 
 /* Create three equal columns that floats next to each other */
@@ -397,9 +347,6 @@ section {
   display: table;
   clear: both;
 }
-
-
-
 
 .thumbnail {
     padding: 0 0 15px 0;
@@ -513,13 +460,6 @@ font-family: "Source Sans Pro", sans-serif;
 }
 
 
-@media screen and (max-width: 480px) {
-  .col-sm-4 {
-    text-align: center;
-    width: 100%;
-  }
-
-}
 
 
 
@@ -558,7 +498,7 @@ text-transform: uppercase;
 
 .footer-right-contact {
 background: #fff;
-height: 510px;
+height: 300px;
 
 }
 
@@ -567,7 +507,7 @@ height: 510px;
   float: left;
   margin: 10px 0px 0px 60px;
   font-size: 18px;
-  min-height: 500px;
+  min-height: 50px;
   font-family: -webkit-body;
   color: grey;
 
@@ -662,29 +602,4 @@ color: #d9534f;
 
 #copyright p a {
   color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-    width: 50%;
-  }
-  .col-sm-8 {
-    width: 100%;
-  }
-  .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .logo {
-      font-size: 150px;
-  }
-  .col-sm-4 {
-    text-align: center;
-    width: 100%;
-  }
-
 }
