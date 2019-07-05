@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font: 400 18px Arial, Helvetica, serif, sans-serif;
+    font: 24px  24px Arial, Helvetica, serif, sans-serif;
     line-height: 1.8;
     height: 100%;
 }
@@ -254,7 +254,7 @@ h4 {
     font-weight: 400;
     font-family: "Source Sans Pro", sans-serif;
     margin: 0px;
-    font-size: 14px;
+    font-size: 24px;
   }
 
   ul, ol {
@@ -306,29 +306,10 @@ h1 {
   .bg-grey {        /* About section */
       background-color: #f6f6f6;
   }
-
-      /* Intro about myself styles */
-
-            @media screen and (max-width: 768px) {
-              .col-sm-4 {
-                text-align: center;
-                margin: 25px 0;
-                width: 50%;
-              }
-
-              .btn-lg {
-                  width: 100%;
-                  margin-bottom: 35px;
-              }
-            }
-            @media screen and (max-width: 480px) {
-              .col-sm-4 {
-                text-align: center;
-                width: 100%;
-              }
-
-
-            }
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
 
 
 /* Create three equal columns that floats next to each other */
@@ -336,10 +317,10 @@ h1 {
   float: left;
   width: 100%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 500px; /* Should be removed. Only for demonstration */
 }
-.column p{
-  font-size: 24px;
+.column p {
+  font-size: 20px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -382,7 +363,33 @@ h1 {
     visibility: visible;
     margin-top: 40px;
 }
+/* Intro about myself styles */
 
+      @media screen and (max-width: 768px) {
+        .col-sm-4 {
+          text-align: center;
+          margin: 15px 0;
+          width: 100%;
+        }
+
+        .btn-lg {
+            width: 100%;
+            margin-bottom: 35px;
+        }
+        .column {
+          height: 200px;
+        }
+
+      }
+      @media screen and (max-width: 480px) {
+        .col-sm-4 {
+          text-align: center;
+          width: 100%;
+        }
+      }
+
+
+/*end of Media*/
 #scroll {
     position:fixed;
     right:10px;
