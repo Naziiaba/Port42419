@@ -505,7 +505,7 @@ text-transform: uppercase;
 
 .footer-right-contact {
 background: #fff;
-height: 200px;
+height: 50px;
 text-align: left;
 
 }
@@ -602,7 +602,7 @@ color: #d9534f;
 }
 
 #copyright p {
-  line-height: 42px;
+  line-height: 22px;
   color: #fff;
   margin: 0;
 }
