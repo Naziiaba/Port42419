@@ -36,6 +36,7 @@ h4 {
     margin-bottom: 0px !important;
     font-weight: 700;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -43,8 +44,8 @@ h4 {
     background-color: #fff !important;
     font-weight: bold;
     vertical-align: middle;
-
   }
+
 .navbar-default .navbar-toggle {
       border-color: transparent;
       color: #fff !important;
@@ -460,13 +461,10 @@ text-align: left;
 }
 
 .address {
-  width: 60%;
   float: left;
-  font-size: 18px;
+  font-size: 14px;
   min-height: 50px;
-  font-family: -webkit-body;
-  color: grey;
-
+  color: #000;
 }
 
 
