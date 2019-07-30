@@ -578,12 +578,12 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #a94442;
+  background: #55c0f6;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #31708f;
+  background: #094aca;
 }
