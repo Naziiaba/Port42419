@@ -103,22 +103,6 @@ h4 {
     text-transform: uppercase;
   }
 
-  #hero-area .banner_bottom_btn {
-    margin-top: 40px;
-  }
-
-  #hero-area .banner_bottom_btn i {
-    color: #fff;
-    font-size: 48px;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-  }
-
-  #hero-area .banner_bottom_btn i:hover {
-    color: #ddd;
-  }
 
   .btn {
     font-size: 14px;
