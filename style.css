@@ -177,7 +177,9 @@ h4 {
     border: 1px solid #00ccff;
     transition: .5s;
   }
-
+.social-icon span {
+  text-align: center;
+}
 
 /*script-font from landing page title*/
   .script-font {
