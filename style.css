@@ -402,7 +402,30 @@ h1 {
   color:#efefef;
 }
 
+
 /*Contact form*/
+.form-control {
+  width: 100%;
+margin-bottom: 10px;
+font-size: 14px;
+border-radius: 0;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+padding: 8px 10px;
+border: 1px solid #e1e1e1;
+}
+
+.form-control:focus {
+box-shadow: none;
+outline: none;
+}
+
+.btn.disabled, .btn:disabled {
+opacity: 1;
+}
+
+
 
 .address {
   float: left;
@@ -410,6 +433,8 @@ h1 {
   min-height: 50px;
   color: #000;
 }
+
+
 
 #contact {
 position: relative;
@@ -429,6 +454,7 @@ margin-top: 10px;
 color: #d9534f;
 }
 /* Footer Area Start */
+
 
 .footer-area .footer-text p {
   font-size: 14px;
