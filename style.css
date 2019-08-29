@@ -169,6 +169,7 @@ body {
     border-radius: 50%;
     transition: .5s;
     margin-top: 20px;
+    text-align: right;
   }
 
 
@@ -179,6 +180,7 @@ body {
   }
 .social-icon div {
   font-size: 12px;
+  display: inline-block;
 }
 
 /*script-font from landing page title*/
