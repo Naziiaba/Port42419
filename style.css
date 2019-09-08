@@ -207,21 +207,18 @@ body {
     padding: 0;
   }
 /*end*/
-.blue {
-  color: #337ab7;
-  font-size: 18px;
-}
+
 .divider {
   height: 50px;
 }
 
-section {
+/* section {
   color: #fff;
   min-height: 380px;
   height: auto !important;
   height: 100%;
   padding-top:100px;
-}
+} */
 
 /* parallax*/
 .bg-1 {
@@ -430,7 +427,7 @@ h1 {
 
 .copyright {
   background: #181818;
-  padding: 10px 15px;
+  padding: 0 10px;
 }
 
 .copyright span {
