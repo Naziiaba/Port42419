@@ -498,7 +498,7 @@ margin-top: 30px;
 }
 
 .copyright p {
-  line-height: 16px;
-  color: #E0E0E0;
+  font-size: 10px;
+  color: #DCDCDC;
   padding-left: 10px;
 }
