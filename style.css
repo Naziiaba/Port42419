@@ -410,6 +410,7 @@ h1 {
 
 .footer-area .footer-text .nav-inline .nav-link {
   padding: 11px 7px;
+  color: #888;
 }
 
 .footer-area .footer-text .nav-inline .nav-link:hover {
@@ -417,7 +418,10 @@ h1 {
 }
 .footer-social-icons li {
   list-style: none;
+  margin: 10px 10px;
   display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
 }
 
 .footer-social-icons li:hover {
