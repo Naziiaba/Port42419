@@ -207,18 +207,21 @@ body {
     padding: 0;
   }
 /*end*/
-
+.blue {
+  color: #337ab7;
+  font-size: 18px;
+}
 .divider {
   height: 50px;
 }
 
-/* section {
+section {
   color: #fff;
   min-height: 380px;
   height: auto !important;
   height: 100%;
   padding-top:100px;
-} */
+}
 
 /* parallax*/
 .bg-1 {
