@@ -389,72 +389,9 @@ h1 {
         -ms-filter:"alpha(opacity=100)";
     }
 
-#footer {
-  background-color:#414141;
-}
 
-#footer a {
-  color:#efefef;
-}
+/*Contact */
 
-
-/*Contact form*/
-.form-control {
-  width: 100%;
-margin-bottom: 10px;
-font-size: 14px;
-border-radius: 0;
--webkit-transition: all 0.3s;
--moz-transition: all 0.3s;
-transition: all 0.3s;
-padding: 8px 10px;
-border: 1px solid #e1e1e1;
-}
-
-.form-control:focus {
-box-shadow: none;
-outline: none;
-}
-
-.btn.disabled, .btn:disabled {
-opacity: 1;
-}
-
-.contact-form-area {
-background: #fff;
-box-shadow: 0 0 30px #ededed;
-padding: 60px 40px;
-}
-
-.contact-form-area h2 {
-font-size: 18px;
-text-transform: uppercase;
-}
-
-.footer-right-contact {
-background: #fff;
-height: 50px;
-text-align: left;
-
-}
-
-.address {
-  float: left;
-  font-size: 14px;
-  min-height: 50px;
-  color: #000;
-}
-
-
-
-#contact {
-position: relative;
-overflow: hidden;
-}
-
-#contact #contactForm {
-margin-top: 30px;
-}
 
 /* Footer Area Start */
 .footer-area {
