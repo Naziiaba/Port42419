@@ -508,8 +508,5 @@ color: #d9534f;
   line-height: 22px;
   color: #fff;
   margin: 0;
-}
-
-#copyright p a {
-  color: #fff;
+  text-align: left;
 }
