@@ -1,7 +1,6 @@
 
 body {
     font: 24px  Arial, Helvetica, serif, sans-serif;
-    line-height: 1.8;
     height: 100%;
     box-sizing: border-box;
 }
@@ -418,10 +417,9 @@ h1 {
 }
 .footer-social-icons li {
   list-style: none;
-  margin: 10px 10px;
+  margin: 0 10px;
   display: inline-block;
-  padding: 10px 20px;
-  margin-top: 15px;
+  padding: 10px;
 }
 
 .footer-social-icons li:hover {
