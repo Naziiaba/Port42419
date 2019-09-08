@@ -500,11 +500,11 @@ color: #d9534f;
   color: #00ccff;
 }
 
-#copyright {
+.copyright {
   background: #080808;
 }
 
-#copyright p {
+.copyright p {
   line-height: 16px;
   color: #E0E0E0;
   padding-left: 10px;
