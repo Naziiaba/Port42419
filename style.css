@@ -466,7 +466,7 @@ color: #d9534f;
 }
 /* Footer Area Start */
 .footer-area {
-  background: #1C1C20;
+  background: #282828;
 }
 
 .footer-area .footer-text p {
@@ -501,11 +501,11 @@ color: #d9534f;
 }
 
 #copyright {
-  background: #333;
+  background: #080808;
 }
 
 #copyright p {
-  line-height: 22px;
-  color: #fff;
-  margin: 0;
+  line-height: 16px;
+  color: #E0E0E0;
+  margin: 10px;
 }
