@@ -493,15 +493,11 @@ color: #d9534f;
   display: inline-block;
   font-size: 20px;
   padding: 10px 20px;
-  border-radius: 50%;
-  transition: .5s;
   margin-top: 15px;
 }
 
 .footer-social-icons li:hover {
   color: #00ccff;
-  border: 1px solid #00ccff;
-  transition: .5s;
 }
 
 #copyright {
