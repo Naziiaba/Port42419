@@ -205,7 +205,15 @@ body {
     margin: 0;
     padding: 0;
   }
-/*end*/
+
+.aboutme {
+  text-align: left;
+  font-size: 14px;
+  color: #909090;
+  padding: 0 100px;
+}
+
+/*blue is for source code*/
 .blue {
   color: #337ab7;
   font-size: 18px;
